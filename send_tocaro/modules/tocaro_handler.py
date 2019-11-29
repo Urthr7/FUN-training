@@ -30,7 +30,7 @@ class TocaroHandler:
         self.message["attachments"] = contents
 
     def send2tocaro(self):
-        tocaro_url = "https://hooks.tocaro.im/integrations/inbound_webhook/v4opwrskmhjep6l3xmjoacaiy9cvfzh3"
+        tocaro_url = "URLを入れる"
         context = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
 
         headers = {'Content-type': 'application/json'}
